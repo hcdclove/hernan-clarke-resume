@@ -1,0 +1,160 @@
+html {
+  background-color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  height: 1160px;
+  width: 770px;
+  border: 4px solid black;
+  border-radius: 3%;
+  margin: 20rem;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#side-bar {
+  height: 1160px;
+  width: 20px;
+  float: left;
+  text-align: left;
+  border: 0px solid black;
+  display: inline-block;
+  padding: 8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0rem;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+  html {
+    /*background-color: lightsalmon;*/
+    background-color:ghostwhite;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  html {
+    /*background-color: powderblue;*/
+    background-color:ghostwhite;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  html {
+    /*background-color: limegreen;*/
+    background-color:ghostwhite;
+   
+  }
+}
+
+@media (min-width: 1601px) {
+  html {
+    background-color: seagreen;*/
+    
+  }
+}
+
+#main {
+  float: inline-start;
+  height: 1090px;
+  width: 680px;
+  text-align: left;
+}
+
+.header {
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
+.applicant {
+  color: rgb(2, 55, 55);
+  font-size: x-large;
+  text-align: center;
+}
+
+.web3 {
+  font-size: normal;
+  text-align: right;
+  padding-left: 4rem;
+}
+
+.summary {
+  color: rgb(2, 55, 55);
+  font-size: small;
+}
+.address {
+  color: rgb(2, 55, 55);
+  font-size: small;
+}
+
+h5 {
+  font-size: small;
+  color: rgb(23, 2, 2);
+}
+
+#education {
+  font-size: small;
+  color: rgb(2, 55, 55);
+}
+
+#small-text {
+  font-size: smaller;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 11px;
+  color: rgb(5, 73, 73);
+  text-align: center;
+}
+
+.experience-detail {
+  font-size: smaller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  color: rgb(2, 55, 55);
+  text-align: left;
+}
+
+.footer-line {
+  height: 0px;
+  width: 720px;
+  font-weight: normal;
+  border: 1px solid black;
+  color: rgb(5, 73, 73);
+}
+
+.vertical {
+  border-left: 1px solid rgb(184, 177, 177);
+  height: 980px;
+  position: absolute;
+  left: 190px;
+  top: 176px;
+}
+
+.photo {
+  margin-top: 10px;
+  width: 300%;
+  border-radius: 10%;
+  display: inline;
+  object-fit: cover;
+}
+
+.list-features li{
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px;
+  text-indent: 10px;
+  font-weight:bold;
+}
+
+.flex-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
