@@ -15,6 +15,11 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
+app.post('/', (req, res) => {
+  console.log('HI THERE');
+  res.redirect('https://hernan-clarke-porfolio.herokuapp.com/');
+});
+
 app.listen(port, () => {
   console.log('Listening on port ' + port);
 });
