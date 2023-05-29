@@ -163,6 +163,9 @@ body {
   text-align: center;
 }
 
+.linespacing {
+  line-height: 20px;
+}
 .col3centercolor {
   text-align: center;
   background: linear-gradient(var(--one), var(--two));
@@ -240,7 +243,7 @@ a span1 {
   font-weight: 500;
   color: var(--one);
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .subheading {
@@ -260,6 +263,7 @@ a span1 {
 .p5 {
   font-weight: 700;
   color: var(--black);
+  font-size: smaller;
 }
 .span1 {
   font-size: 12px;
@@ -268,7 +272,7 @@ a span1 {
 
 .btn {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
+  font-size: smaller;
 }
 
 .col-div-3 {
