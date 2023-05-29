@@ -18,7 +18,8 @@
 }
 
 body {
-  background: var(--background);
+  /* background: var(--background); */
+  background: linear-gradient(var(--one), var(--two));
 }
 
 .resume-main {
