@@ -320,3 +320,9 @@ a span1 {
 .clearfix {
   clear: both;
 }
+
+@media (min-width: 30em) and (max-width: 80em) {
+  body {
+    background-color: rgb(77, 16, 209);
+  }
+}
