@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
   console.log('HI THERE');
-  res.redirect('https://hernan-clarke-porfolio.herokuapp.com/');
+  res.redirect('https://hcportfolio.herokuapp.com/');
 });
 
 app.listen(port, () => {
