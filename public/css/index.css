@@ -214,6 +214,13 @@ h2 span {
   font-size: 12px;
 }
 
+.p7 {
+  letter-spacing: 3px;
+  color: --two;
+  font-weight: 600;
+  font-size: 10px;
+}
+
 h4 span {
   letter-spacing: 3px;
   color: #54585d;
