@@ -16,8 +16,11 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
-  console.log('HI THERE');
-  res.redirect('https://hcportfolio.herokuapp.com/');
+  const choice = req.body.submit;
+  // console.log('HI THERE: ' + choice);
+  if (choice === 'linkedin')
+    res.redirect('https://www.linkedin.com/in/hernan-clarke-0954ba273');
+  else res.redirect('https://hcportfolio.herokuapp.com/');
 });
 
 app.listen(port, () => {
