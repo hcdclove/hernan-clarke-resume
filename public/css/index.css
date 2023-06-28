@@ -25,8 +25,8 @@ body {
 .profesional-summary {
   float: left;
   width: 410px;
-  height: 130px;
-  margin-left: 260px;
+  height: 134px;
+  margin-left: 250px;
   margin-top: -100px;
   border-radius: 50px 0px 0px 0px;
   background: linear-gradient(var(--one), var(--two));
@@ -73,7 +73,7 @@ body {
 
 .resume-main {
   width: 900px;
-  height: 820px;
+  height: 830px;
   background: linear-gradient(var(--one), var(--two));
   margin: 50px auto;
   box-shadow: 5px 5px 5px 5px #54585d33;
@@ -87,7 +87,7 @@ body {
   width: 77%;
   float: left;
   background-color: var(--white);
-  height: 770px;
+  height: 780px;
   margin: 30px 0px;
   border-radius: 50px 0px 0px 30px;
   padding: 20px 10px;
