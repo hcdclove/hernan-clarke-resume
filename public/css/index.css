@@ -47,8 +47,9 @@ body {
 
 .justify-left {
   float: left;
-  margin-top: 5px;
-  margin-left: -240px;
+  margin-top: -48px;
+  margin-left: 5px;
+  /* margin-left: -240px; */
   padding: 10px 10px;
   color: var(--white);
 }
