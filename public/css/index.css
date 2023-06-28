@@ -23,6 +23,7 @@ body {
 }
 
 .profesional-summary {
+  float: left;
   width: 410px;
   height: 130px;
   margin-left: 260px;
@@ -49,8 +50,8 @@ body {
   float: left;
   margin-top: -0px;
   margin-left: 5px;
-  /* margin-left: -240px; */
-  padding: 10px 10px;
+  padding: 10px 14px;
+  padding-top: 20px;
   color: var(--white);
 }
 
