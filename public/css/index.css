@@ -73,7 +73,7 @@ body {
 
 .resume-main {
   width: 900px;
-  height: 830px;
+  height: 930px;
   background: linear-gradient(var(--one), var(--two));
   margin: 50px auto;
   box-shadow: 5px 5px 5px 5px #54585d33;
